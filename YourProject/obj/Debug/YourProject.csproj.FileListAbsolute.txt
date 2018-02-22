@@ -30,3 +30,32 @@ C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\Yo
 C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\YourProject.g.resources
 C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\YourProject.Properties.Resources.resources
 C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\YourProject.csproj.GenerateResource.Cache
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\YourProject.exe.config
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\YourProject.exe
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\YourProject.pdb
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\BlgConnector.dll
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\NeutralObjects.dll
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\OxyPlot.dll
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\Bloomberglp.Blpapi.dll
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\BlgConnector.pdb
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\NeutralObjects.pdb
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\OxyPlot.pdb
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\OxyPlot.xml
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject.csprojResolveAssemblyReference.cache
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\MainWindow.g.cs
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\SimpleReporting.g.cs
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\App.g.cs
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject_MarkupCompile.cache
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject_MarkupCompile.lref
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\MainWindow.baml
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\SimpleReporting.baml
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject.g.resources
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject.Properties.Resources.resources
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject.csproj.GenerateResource.Cache
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject.csproj.CoreCompileInputs.cache
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject.exe
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject.pdb

@@ -14,7 +14,35 @@ namespace YourProject.Models
     {
         private string _ticker;
         private string _blgfield;
-        
+        private string _name;
+        private string _description;
+
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+                NotifyPropertyChanged("Name");
+            }
+        }
+
+        public string Description
+        {
+            get
+            {
+                return _description;
+            }
+            set
+            {
+                _description = value;
+                NotifyPropertyChanged("Description");
+            }
+        }
+
         public string Blgfield
         {
             get

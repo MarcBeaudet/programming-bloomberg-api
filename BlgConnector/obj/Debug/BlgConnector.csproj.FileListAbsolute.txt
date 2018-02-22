@@ -10,3 +10,12 @@ C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\Bl
 C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\BlgConnector\obj\Debug\BlgConnector.csprojResolveAssemblyReference.cache
 C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\BlgConnector\obj\Debug\BlgConnector.dll
 C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\BlgConnector\obj\Debug\BlgConnector.pdb
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\BlgConnector\bin\Debug\BlgConnector.dll
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\BlgConnector\bin\Debug\BlgConnector.pdb
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\BlgConnector\bin\Debug\Bloomberglp.Blpapi.dll
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\BlgConnector\bin\Debug\NeutralObjects.dll
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\BlgConnector\bin\Debug\NeutralObjects.pdb
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\BlgConnector\obj\Debug\BlgConnector.csprojResolveAssemblyReference.cache
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\BlgConnector\obj\Debug\BlgConnector.csproj.CoreCompileInputs.cache
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\BlgConnector\obj\Debug\BlgConnector.dll
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\BlgConnector\obj\Debug\BlgConnector.pdb

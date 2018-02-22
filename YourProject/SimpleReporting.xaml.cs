@@ -10,21 +10,20 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO.Packaging;
+using System.IO;
+using System.Diagnostics;
 using BlgConnector;
 using NeutralObjects;
 using YourProject.Models;
 
-namespace YourProject
-{
+namespace YourProject{
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logique d'interaction pour SimpleReporting.xaml
     /// </summary>
-    public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
+    public partial class SimpleReporting : Window{
+        public SimpleReporting(){
             InitializeComponent();
         }
 
@@ -38,14 +37,41 @@ namespace YourProject
             ResultModel rm = GridResult.DataContext as ResultModel;
 
             tickers.Add(mm.Ticker);
-            fields.Add(mm.Blgfield);
+            fields.Add("PX_LAST");
 
-            Dictionary<string, Dictionary<string, List<HistoData>>> res_histo = new Dictionary<string, Dictionary<string, List<HistoData>>>(); 
+            Dictionary<string, Dictionary<string, List<HistoData>>> res_histo = new Dictionary<string, Dictionary<string, List<HistoData>>>();
 
             if(wrap.GetHistoricalData(tickers, fields, BlgPeriodOpt.periodicity_sel, BlgPeriods.daily))
             {
+                List<HistoData> ListPerf = new List<HistoData>();
                 res_histo = wrap.ResultHisto;
-                rm.Donnees1 = res_histo[fields.First()].Values.First();
+
+                for (int i = 0; i < res_histo[fields.First()].Values.First().Count(); i++)
+                {
+                    double VLEnd = res_histo[fields.First()].Values.First()[i].Price;
+                    double VLStart = res_histo[fields.First()].Values.First()[0].Price;
+                    double perf = ((VLEnd - VLStart) / VLStart);
+                    HistoData HistPerf = new HistoData(res_histo[fields.First()].Values.First()[i].Date, perf);
+                    ListPerf.Add(HistPerf);
+                }
+
+
+                rm.Donnees1 = ListPerf;
+
+
+                /*
+                P1MTxt.Text = PerformanceCalculus(res_histo, 21);
+                P3MTxt.Text = PerformanceCalculus(res_histo, 63);
+                P6MTxt.Text = PerformanceCalculus(res_histo, 126);
+                P1YTxt.Text = PerformanceCalculus(res_histo, 252);
+                P3YTxt.Text = PerformanceCalculus(res_histo, 756);
+
+                V1MTxt.Text = VolatilityCalculus(res_histo, 21);
+                V3MTxt.Text = VolatilityCalculus(res_histo, 63);
+                V6MTxt.Text = VolatilityCalculus(res_histo, 126);
+                V1YTxt.Text = VolatilityCalculus(res_histo, 252);
+                V3YTxt.Text = VolatilityCalculus(res_histo, 756);
+                */
             }
             else
             {
@@ -70,8 +96,8 @@ namespace YourProject
             if (wrap.GetReferenceData(tickers, fields))
             {
                 res_ref = wrap.ResultRef;
-                rm.Nom = res_ref["NAME"].Values.First();
-                rm.Description = res_ref["CIE_DES"].Values.First();
+                mm.Name = res_ref["NAME"].Values.First();
+                mm.Description = res_ref["CIE_DES"].Values.First();
             }
             else
             {
@@ -82,14 +108,6 @@ namespace YourProject
                     MessageBox.Show(message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-
-            SimpleReporting RS = new SimpleReporting();
-            this.Close();
-            RS.Show();
         }
     }
 }
