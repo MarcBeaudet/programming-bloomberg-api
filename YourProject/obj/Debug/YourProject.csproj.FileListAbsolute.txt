@@ -1,0 +1,32 @@
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\bin\Debug\YourProject.exe.config
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\bin\Debug\YourProject.exe
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\bin\Debug\YourProject.pdb
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\obj\Debug\YourProject.csprojResolveAssemblyReference.cache
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\obj\Debug\MainWindow.baml
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\obj\Debug\MainWindow.g.cs
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\obj\Debug\App.g.cs
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\obj\Debug\YourProject_MarkupCompile.cache
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\obj\Debug\YourProject.g.resources
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\obj\Debug\YourProject.Properties.Resources.resources
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\obj\Debug\YourProject.csproj.GenerateResource.Cache
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\obj\Debug\YourProject.exe
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\obj\Debug\YourProject.pdb
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\bin\Debug\BlgConnector.dll
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\bin\Debug\Bloomberglp.Blpapi.dll
+c:\users\bloomberg\documents\visual studio 2013\Projects\YourProject\YourProject\bin\Debug\BlgConnector.pdb
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\bin\Debug\YourProject.exe.config
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\YourProject.exe
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\YourProject.pdb
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\bin\Debug\YourProject.exe
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\bin\Debug\YourProject.pdb
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\bin\Debug\BlgConnector.dll
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\bin\Debug\BEmu_csh.dll
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\bin\Debug\BlgConnector.pdb
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\YourProject.csprojResolveAssemblyReference.cache
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\MainWindow.baml
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\MainWindow.g.cs
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\App.g.cs
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\YourProject_MarkupCompile.cache
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\YourProject.g.resources
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\YourProject.Properties.Resources.resources
+C:\Users\ACER\Documents\Programming Bloomberg API with C#\Projet2\YourProject\YourProject\obj\Debug\YourProject.csproj.GenerateResource.Cache
