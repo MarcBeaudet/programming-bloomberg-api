@@ -10,19 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.IO.Packaging;
-using System.IO;
-using System.Diagnostics;
 using BlgConnector;
 using NeutralObjects;
 using YourProject.Models;
 
-namespace YourProject{
+namespace YourProject
+{
     /// <summary>
     /// Logique d'interaction pour SimpleReporting.xaml
     /// </summary>
-    public partial class SimpleReporting : Window{
+    public partial class SimpleReporting : Window
+    {
         public SimpleReporting(){
             InitializeComponent();
         }
