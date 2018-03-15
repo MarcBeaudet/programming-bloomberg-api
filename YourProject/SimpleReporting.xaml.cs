@@ -59,7 +59,7 @@ namespace YourProject
                 rm.Donnees1 = ListPerf;
 
 
-                /*
+                
                 P1MTxt.Text = PerformanceCalculus(res_histo, 21);
                 P3MTxt.Text = PerformanceCalculus(res_histo, 63);
                 P6MTxt.Text = PerformanceCalculus(res_histo, 126);
@@ -71,7 +71,7 @@ namespace YourProject
                 V6MTxt.Text = VolatilityCalculus(res_histo, 126);
                 V1YTxt.Text = VolatilityCalculus(res_histo, 252);
                 V3YTxt.Text = VolatilityCalculus(res_histo, 756);
-                */
+                
             }
             else
             {
@@ -108,6 +108,39 @@ namespace YourProject
                     MessageBox.Show(message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
+        }
+
+        private string PerformanceCalculus(Dictionary<string, Dictionary<string, List<HistoData>>> res_histo, int days)
+        {
+
+            List<double> PriceList = new List<double>();
+            for (int i = 0; i < res_histo["PX_LAST"].Values.First().Count(); i++)
+                PriceList.Add(res_histo["PX_LAST"].Values.First()[i].Price);
+
+            int indexLast = PriceList.Count() - 1;
+            double price = ((PriceList[indexLast] - PriceList[indexLast - days]) / PriceList[indexLast - days]);
+            string priceStr = price.ToString("0.00%");
+            return priceStr;
+        }
+
+        private string VolatilityCalculus(Dictionary<string, Dictionary<string, List<HistoData>>> res_histo, int days)
+        {
+            List<double> PriceList = new List<double>();
+            double N = 252;
+            double sum = 0;
+            for (int i = 0; i < res_histo["PX_LAST"].Values.First().Count(); i++)
+                PriceList.Add(res_histo["PX_LAST"].Values.First()[i].Price);
+
+            int indexLast = PriceList.Count() - 1;
+            for (int i = 0; i < days; i++)
+                sum += Math.Pow(Math.Log(PriceList[indexLast - i] / PriceList[indexLast - i - 1]), 2);
+            sum *= N / days;
+
+            double variance = sum;
+
+            variance = Math.Sqrt(variance);
+            string varianceStr = variance.ToString("0.00%");
+            return varianceStr;
         }
     }
 }

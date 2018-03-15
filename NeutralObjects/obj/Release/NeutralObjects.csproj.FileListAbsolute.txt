@@ -1,0 +1,6 @@
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\NeutralObjects\bin\Release\NeutralObjects.dll
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\NeutralObjects\bin\Release\NeutralObjects.pdb
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\NeutralObjects\obj\Release\NeutralObjects.csprojResolveAssemblyReference.cache
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\NeutralObjects\obj\Release\NeutralObjects.csproj.CoreCompileInputs.cache
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\NeutralObjects\obj\Release\NeutralObjects.dll
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\NeutralObjects\obj\Release\NeutralObjects.pdb

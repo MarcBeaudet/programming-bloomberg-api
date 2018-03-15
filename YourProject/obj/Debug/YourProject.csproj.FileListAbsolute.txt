@@ -59,3 +59,5 @@ C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\
 C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject.csproj.CoreCompileInputs.cache
 C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject.exe
 C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\YourProject.pdb
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\SecondReporting.g.cs
+C:\Users\cyril\OneDrive - De Vinci\Github\programming-bloomberg-api\YourProject\obj\Debug\SecondReporting.baml
